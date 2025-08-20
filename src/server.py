@@ -4,7 +4,7 @@ from mcp.server.stdio import stdio_server
 from mcp.types import Tool
 
 async def main():
-    server = Server("your-repo-mcp")
+    server = Server("thethinker-mcp")
     
     # Define your tools here
     tools = [
