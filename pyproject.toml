@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "your-repo-name-mcp"
+name = "thethinker-mcp"
 version = "0.1.0"
 description = "MCP server for your repository"
 dependencies = [
@@ -11,4 +11,4 @@ dependencies = [
 ]
 
 [project.scripts]
-your-repo-mcp = "src.server:main"
+thethinker-mcp = "src.server:main"
